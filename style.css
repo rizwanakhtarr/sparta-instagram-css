@@ -5,14 +5,15 @@ body {
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  margin: 100px 334px 10px 334px;
+
+  /* justify-content: space-around; */
+  /* margin: 100px 334px 10px 334px; */
 
 }
 
 
 .box {
-
+  margin:0 auto;
   text-align: center;
   background-color: white;
 
@@ -124,4 +125,19 @@ li a  {
   margin-top: 7px;
   font-weight: 600;
 
+}
+
+@media screen and (max-width:1000px) {
+  .hidden {
+    display: none;
+  }
+  .box {
+    margin:0 auto;
+  }
+  .box3 {
+    margin: 0 auto;
+  }
+  .container2 {
+    margin: 0 auto;
+  }
 }
